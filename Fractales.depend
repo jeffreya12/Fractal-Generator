@@ -1,0 +1,45 @@
+# depslib dependency file v1.0
+1411665410 source:c:\users\jeffrey\documents\c++\fractales\main.cpp
+	<iostream>
+	"LinkedList.h"
+	<winbgim.h>
+	<math.h>
+
+1411685632 c:\users\jeffrey\documents\c++\fractales\linkedlist.h
+	<iostream>
+	<stdexcept>
+
+1411665410 source:e:\edd1\windows\fractales\main.cpp
+	<iostream>
+	"LinkedList.h"
+	<winbgim.h>
+	<math.h>
+
+1411685632 e:\edd1\windows\fractales\linkedlist.h
+	<iostream>
+	<stdexcept>
+
+1411687076 source:c:\users\jeffrey\documents\c++\edd1\windows\fractales\main.cpp
+	<iostream>
+	"include\LinkedList.h"
+	<winbgim.h>
+	<math.h>
+
+1411685632 c:\users\jeffrey\documents\c++\edd1\windows\fractales\linkedlist.h
+	<iostream>
+	<stdexcept>
+
+1411685632 c:\users\jeffrey\documents\c++\edd1\windows\fractales\include\linkedlist.h
+	<iostream>
+	<stdexcept>
+
+1412014865 source:c:\users\jeffrey\documents\c++\fractal-generator\windows\src\main.cpp
+	<iostream>
+	"include\LinkedList.h"
+	<winbgim.h>
+	<math.h>
+
+1412013955 c:\users\jeffrey\documents\c++\fractal-generator\windows\src\include\linkedlist.h
+	<iostream>
+	<stdexcept>
+
