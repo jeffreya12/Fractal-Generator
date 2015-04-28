@@ -188,7 +188,7 @@ void menu(){
 	cout << "\n\n1. Curva del Dragon\n2. Curva de punta de flecha de Sierpinsky\n3. Curva C de Levy\n0. SALIR\n\n";
 	cout << "Elija un fractal: "; cin >> p;
 
-	if(p == 0) return;
+	if(p == 0) exit(0);
 
 	if(p < 0 || p > 3){
 		cout<<"\nEsa no es una opcion valida. Por favor, digite una opcion valida"<<endl;
@@ -222,6 +222,8 @@ void menu(){
 			turtle(genLevy(i), 45);
 			break;
 	}
+
+	system("cls");
 
 	menu();
 }
