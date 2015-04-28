@@ -2,7 +2,7 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="Fractales" />
+		<Option title="Fractal-Generator" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
@@ -36,7 +36,8 @@
 			<Add option="-lbgi -lgdi32 -luser32" />
 			<Add library="C:\Program Files (x86)\CodeBlocks\MinGW\lib\libbgi.a" />
 		</Linker>
-		<Unit filename="main.cpp" />
+		<Unit filename="include/LinkedList.h" />
+		<Unit filename="src/main.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />

@@ -6,7 +6,7 @@ using namespace std;
 #define PI 3.14159265358979
 
 LinkedList<char> genDragon(int generaciones){
-	/*  	String inicial: FX
+	/*  String inicial: FX
 	 *	Angulo: 90
 	 */
 
@@ -41,7 +41,7 @@ LinkedList<char> genDragon(int generaciones){
 }
 
 LinkedList<char> genSierp(int generaciones){
-	/*  	String inicial: A
+	/*  String inicial: A
 	 *	Angulo: 60
 	 */
 	LinkedList<char> sierp;
@@ -87,7 +87,7 @@ LinkedList<char> genSierp(int generaciones){
 }
 
 LinkedList<char> genLevy(int generaciones){
-	/*  	String inicial: F
+	/*  String inicial: F
 	 *	Angulo: 45
 	 */
 	LinkedList<char> levy;
@@ -240,7 +240,7 @@ int main(){
 
 
 
-    	menu();
+    menu();
 
 
 	return 0;

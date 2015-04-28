@@ -43,3 +43,13 @@
 	<iostream>
 	<stdexcept>
 
+1430185488 source:c:\users\jeffrey\downloads\fractal-generator\src\main.cpp
+	<iostream>
+	"..\include\LinkedList.h"
+	<winbgim.h>
+	<math.h>
+
+1430185322 c:\users\jeffrey\downloads\fractal-generator\include\linkedlist.h
+	<iostream>
+	<stdexcept>
+
