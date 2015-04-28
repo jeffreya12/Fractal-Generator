@@ -1,29 +1,9 @@
 #include <iostream>
-#include "include\LinkedList.h"
+#include "..\include\LinkedList.h"
 #include <winbgim.h>
 #include <math.h>
 using namespace std;
 #define PI 3.14159265358979
-
-/************************************************************************************************
- * FractalGen.cpp 																				*
- *																								*
- *	Este archivo declara las funciones genDragon, genSierp y genLevy.  Cada una de estas		*
- *	funciones genera una lista de caracteres (tipo LinkedList<char>), donde cada caracter		*
- *	corresponde a un comando para algun programa de graficos Turtle.  Las funciones 			*
- *	implementan sistemas Lindenmayer (en.wikipedia.org/wiki/L-System), las cuales son 			*
- *	gramaticas formales basadas en la sustitucion de caracteres en un string.					*
- *	En un sistema L los caracteres que se sustituyen se llaman variables, y los que no, 		*
- *	constantes.  Cada sistema tiene un angulo por el cual gira.  Tambien tiene un string 		*
- *	inicial con el cual comienza a generar el string deseado segun las generaciones.			*
- *	Simbologia:																					*
- *		F, A, B: dibujar hacia el frente														*
- *		X, Y: no se hace nada (son solo para general el string)									*
- *		+: girar a la izquierda																	*
- *		-: girar a la derecha																	*
- *																								*
- ************************************************************************************************/
-
 
 LinkedList<char> genDragon(int generaciones){
 	/*  	String inicial: FX
